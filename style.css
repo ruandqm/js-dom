@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    outline: 0;
+    padding: 0.2em;
+    border: 0.1em solid #000;
+}
+
+form {
+    padding: 2em;
+}
+
+div {
+    margin-bottom: 1em
+}

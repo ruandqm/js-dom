@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" action="https://api.flit.com.br/submeterDados">
+        <div>
+            <label for="nome">Nome</label><br>
+            <input class="input" id="nome" type="text">
+        </div>
+        <div>
+            <label for="endereco">Endereço</label><br>
+            <input class="input" type="text" id="endereco">
+        </div>
+        <div>
+            <label for="">Dias da semana em que há funcionamento:</label><br>
+            <input type="checkbox">Segunda<br>
+            <input type="checkbox">Terça<br>
+            <input type="checkbox">Quarta<br>
+            <input type="checkbox">Sexta<br>
+            <input type="checkbox">Sábado<br>
+            <input type="checkbox">Domingo<br>
+        </div>
+        <div>
+            <label for="funcionamento">Horário de funcionamento:</label><br>
+            <input class="input" type="text" id="funcionamento">
+        </div>
+        <div>
+            <button type="submit" id="submit">Cadastrar</button>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
