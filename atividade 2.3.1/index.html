@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsividade</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="flexForm" method="post">
+
+            <div class="formItem" style="grid-area: i1;">
+                <label for="nome">Nome</label><br>
+                <input class="input" id="nome" type="text">
+            </div>
+            <div class="formItem" style="grid-area: i2;">
+                <label for="endereco">Endereço</label><br>
+                <input class="input" type="text" id="endereco">
+            </div>
+
+            <div class="formItem" style="grid-area: i3;">
+                <label for="">Dias da semana em que há funcionamento:</label><br>
+                <input type="checkbox">Segunda
+                <input type="checkbox">Terça
+                <input type="checkbox">Quarta
+                <input type="checkbox">Sexta
+                <input type="checkbox">Sábado
+                <input type="checkbox">Domingo
+            </div>
+
+            <div class="formItem" style="grid-area: i4;">
+                <label for="funcionamento">Horário de abertura:</label><br>
+                <input class="input" type="text" id="funcionamento">
+            </div>
+
+            <div class="formItem" style="grid-area: i5;">
+                <label for="funcionamento">Horário de fechamento:</label><br>
+                <input class="input" type="text" id="funcionamento">
+            </div>
+            <div class="formItem" style="order: 6; grid-area: i6;">
+                <button type="submit" id="submit">Cadastrar</button>
+            </div>
+
+
+        </div>
+        <div class="responsividade">
+            <button id="vertical">Mudar para vertical</button>
+            <button id="grid">Mudar para grid</button>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

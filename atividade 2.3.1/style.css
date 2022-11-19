@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    margin: 2em;
+    width: 100%;
+}
+
+#flexForm {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.formItem {
+    margin: auto;
+}
+
+.input {
+    width: 250px;
+}
