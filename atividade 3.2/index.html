@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Atividade 3.2
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="searchBar">
+                <input type="text">
+            </div>
+            <nav>
+                <ul>
+                    <li>Categorias</li>
+                    <li>Ofertas do Dia</li>
+                    <li>Histórico</li>
+                    <li>Moda</li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="beneficios">
+            <article class="pagamento">
+                Pagamento rápido e seguro<br>Com cartão
+            </article>
+            <span class="divisao"></span>
+            <article>Até 10 parcelas sem juros<br>Ver mais</article>
+            <article>Pagamento sem cartão<br>Conheça o mercado crédito</article>
+            <article>Via PIX<br>Ver Mais</article>
+        </section>
+
+        <select name="quantidade-itens" id="itens" onchange="quantidadeItens(this)">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+        </select>
+
+        <section class="products">
+            <article class="product" id="first">
+                <img src="./img/iphone.jpg" width="100" alt="celular">
+            </article>
+            <article class="product" id="second">
+                <img src="./img/iphone.jpg" width="100" alt="celular">
+            </article>
+            <article class="product" id="third">
+                <img src="./img/iphone.jpg" width="100" alt="celular">
+            </article>
+            <article class="product" id="fourth">
+                <img src="./img/iphone.jpg" width="100" alt="celular">
+            </article>
+            <article class="product" id="fifth">
+                <img src="./img/iphone.jpg" width="100" alt="celular">
+            </article>
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

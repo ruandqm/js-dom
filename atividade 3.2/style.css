@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 100%;
+}
+
+.searchBar {
+    margin: 1em auto;
+}
+
+nav {
+    border-top: 0.2em solid #000;
+    border-bottom: 0.2em solid #000;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul>li {
+    margin: 1em;
+}
+
+.beneficios {
+    width: 80vw;
+    height: 5em;
+    background-color: #fff;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+.beneficios>article {
+    margin: 1.5em;
+}
+
+.divisao {
+    width: 0.1em;
+    height: 5em;
+    background-color: #000;
+}
+
+#itens {
+    width: 4em;
+    margin: 2em auto 0 auto;
+}
+
+.products {
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    padding: 1em;
+    background-color: #fff;
+    margin: 2em;
+    width: 15vw;
+    display: none;
+    justify-content: center
+}
+
+#first {
+    display: flex;
+}
+
+#second {
+    display: flex;
+}
